@@ -2,7 +2,7 @@
   "name": "busca-cidade",
   "version": "1.0.0",
   "description": "API de consulta Cidade vs Estado",
-  "main": "index.js",
+  "main": "./src/app.js",
   "scripts": {
     "start": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,13 @@
   },
   "homepage": "https://github.com/ganlith/Desafio-1---APIs-Fullstack-IGTI#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "celebrate": "^12.0.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2",
+    "jest": "^25.2.4"
   }
 }
