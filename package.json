@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ganlith/Desafio-1---APIs-Fullstack-IGTI#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "celebrate": "^12.0.1",
     "cors": "^2.8.5"
   },
